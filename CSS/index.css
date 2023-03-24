@@ -34,7 +34,7 @@ body {
 /**
 * Desktop Navigation 
 */
-.navbar {
+/* .navbar {
     padding: 0;
     }
 
@@ -80,18 +80,29 @@ body {
     
 
 
-.social-media{
-    background-color: white;
-    border-radius: 30px;
-    width: 30px;
-    height: 30px;
-    text-align: center;
-    margin-right: 4px;
-    padding-top: 3px;
-}
 
 
     /*  */
+
+    .navbar a:hover{
+        color: #EA580c;
+    }
+
+   
+
+
+
+    .social-media{
+        background-color: white;
+        border-radius: 30px;
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        margin-right: 4px;
+        padding-top: 3px;
+        font-size: 14px;
+    } 
+    
     .mask{
         height: 100vh;
     width: 1000vh;
