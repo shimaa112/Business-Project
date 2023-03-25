@@ -105,17 +105,50 @@ body {
 
 
     .swiper {
-        width: 600px;
-        height: 300px;
-      }
+        width: 100%;
+        height: 100vh;
+        }
+        
+
+    .swiper-slide {
+        
+        background-image: url(../Assets/teamwork.jpg);
+        background-size: cover;
+        align-items: center;
+        position: relative;
+    }
+    .mask {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5); /* change the opacity and color as needed */
+        }
+
+        .text-slide{
+            margin-left: 5em;
+            margin-top: 12em;
+            padding: 4em;
+        
+    
+        }
+        
+
+    .swiper-slide h1{
+        line-height:1.5em;
+        font-size: 3em;
+        
+        }
+
+        .swiper-slide span{
+            color: #EA580c
+            
+            }
 
 
     
-    .mask{
-        height: 100vh;
-    width: 1000vh;
 
-    }
 
 
     /*  */
