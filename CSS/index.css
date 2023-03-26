@@ -128,17 +128,17 @@ body {
 
         .text-slide{
             margin-left: 5em;
-            margin-top: 12em;
-            padding: 4em;
+            margin-top: 8em;
+            padding-top: 10px;
+            padding-left: 13px;
         
-    
         }
         
 
     .swiper-slide h1{
-        line-height:1.5em;
-        font-size: 3em;
-        
+        line-height: 43px;
+        font-size: 2em;
+    
         }
 
         .swiper-slide span{
