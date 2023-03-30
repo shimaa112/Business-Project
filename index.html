@@ -50,9 +50,9 @@
 
 <!-- hero-section -->
 <div>
-    <swiper-container class="mySwiper" navigation="true" pagination="false" autoplay-delay="6000">
+    <swiper-container class="mySwiper" navigation="true" pagination="false" > 
         <swiper-slide>
-            <h1>Providing Brilliant Ideas <br> For Your <span> Marketing</span></h1>
+            <h1>Providing Brilliant Ideas <br> For Your <span class="mov"> </span></h1>
             <p>Launch your campaign and benefit from our expertise on designing and<br> managing conversion centered Tailwind CSS html page.</p>
         </swiper-slide>
         <swiper-slide> 
@@ -268,5 +268,17 @@
 <script>
     AOS.init();
 </script>
+<!-- typing js -->
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script>
+    var typed = new Typed(".mov",{
+    strings: [,  "Digital Agency","Startups","Marketing"] ,
+    typeSpeed: 100,
+    backSpeed: 100,
+    loop: true
+
+    })
+</script>
+
 </body>
 </html>

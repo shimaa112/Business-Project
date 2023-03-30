@@ -19,3 +19,4 @@ window.addEventListener("scroll", () => {
       social3.classList.remove('social-scrolled');
   }
 });
+
