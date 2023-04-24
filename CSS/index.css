@@ -406,14 +406,11 @@ position: absolute;
     }
 }
 
-.card{
-    width: 30%;
+.card1{
     background-color: #0f172a0a;
     border: none;
-    height: 450px;
-
 }
-.card-body a{
+.card1 a{
     background-color: #EA580c;
     color: #fff;
     text-align: center;
@@ -434,4 +431,14 @@ position: absolute;
 .card-body ul li{
     padding-top: 5px;
     font-size: 17px;
+}
+
+.trademark {
+    width: 50%;
+}
+
+form {
+    background-color: white;
+    padding: 12px;
+    
 }

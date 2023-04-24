@@ -1,570 +1,890 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <title>upwind</title>
     <!-- Bootstrap  CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous"/>
     <!-- CSS-file -->
-    <link href="./CSS/index.css" rel="stylesheet">
+    <link href="./CSS/index.css" rel="stylesheet" />
     <!-- Bootstrap Icon CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
-      <!--swiper css  -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
-     <!-- aos css -->
-     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"/>
+    <!--swiper css  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <!-- aos css -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 </head>
 
 <body>
-<!-- start header -->
+    <!-- start header -->
     <nav id="navbar" class="navbar fixed-top navbar-expand-lg navbar-light">
-        <div class="container  align-items-center">
-            <a class="navbar-brand" href="#"><img id="logo" src="../Assets/logo-light.png"></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <div class="container align-items-center">
+            <a class="navbar-brand" href="#"><img id="logo" src="../Assets/logo-light.png"/></a>
+            <button class="navbar-toggler"  type="button"   data-toggle="collapse"  data-target="#navbarSupportedContent"aria-controls="navbarSupportedContent"aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse justify-content-around" id="navbarSupportedContent">
-                <ul class="navbar-nav ">
-                    <li class="nav-item "><a class="nav-link active" href="#hero">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#about">About us</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#why-us">Services</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#team">Review</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contact"> Pricing</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contact"> Blog</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contact"> Contact us</a></li>
+            <div class="collapse navbar-collapse justify-content-around"id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#hero">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#why-us">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#team">Review</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact"> Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact"> Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact"> Contact us</a>
+                    </li>
                 </ul>
-                <div  class="d-flex col-3 justify-content-end align-items-center">
-                    <div id="social-1" class="social-media"> <a><i class="bi bi-github"></i></a></div>
-                    <div id="social-2" class="social-media"> <a><i class="bi bi-twitter"></i></a></div>
-                    <div id="social-3" class="social-media"><a><i class="bi bi-instagram"></i></a></div>
+                <div class="d-flex col-3 justify-content-end align-items-center">
+                    <div id="social-1" class="social-media">
+                        <a><i class="bi bi-github"></i></a>
+                    </div>
+                    <div id="social-2" class="social-media">
+                        <a><i class="bi bi-twitter"></i></a>
+                    </div>
+                    <div id="social-3" class="social-media">
+                        <a><i class="bi bi-instagram"></i></a>
+                    </div>
                 </div>
             </div>
         </div>
     </nav>
-<!-- end header -->
+    <!-- end header -->
 
-
-<!-- hero-section -->
-<div>
-    <swiper-container class="mySwiper" navigation="true" pagination="false" > 
-        <swiper-slide>
-            <h1>Providing Brilliant Ideas <br> For Your <span class="mov"> </span></h1>
-            <p>Launch your campaign and benefit from our expertise on designing and<br> managing conversion centered Tailwind CSS html page.</p>
-        </swiper-slide>
-        <swiper-slide> 
-            <h1>Providing Brilliant Ideas <br> For Your <span> Marketing</span></h1>
-            <p>Launch your campaign and benefit from our expertise on designing and<br> managing conversion centered Tailwind CSS html page.</p>
-        </swiper-slide>
-        <swiper-slide> 
-            <h1>Providing Brilliant Ideas <br> For Your <span> Marketing</span></h1>
-            <p>Launch your campaign and benefit from our expertise on designing and<br> managing conversion centered Tailwind CSS html page.</p>
-        </swiper-slide>
-    </swiper-container>
-</div>
-<!-- end -hero -->
-
-<!-- ======= About Us Section ======= -->
-<div id="about" class="about bg-light pb-5 pt-5">
-    <div class="container">
-        <div class="row align-items-center justify-content-between pt-5 pb-5 gap-1">
-            <div data-aos="fade-right"  data-aos-duration="3000" class="col-md-5 col-sm-12">
-                <img class="img-fluid rounded-lg shadow-lg rounded" src="../Assets/about.jpg" alt="">
-            </div>
-
-            <div data-aos="fade-left"  data-aos-duration="3000" class="col-md-5 col-sm-12 pt-4 pt-lg-0 content">
-                <h6  class="pb-2" style="color: #EA580c">
-                    WHO WE ARE ?
-                </h6>
-                <h3 class="pb-2">
-                    Our Company Story
-                </h3>
-                <p class=" text-muted lh-base">
-                    Start working with Upwind that can provide everything you need to generate awareness, drive traffic,
-                    connect. Dummy text is text that is used in the publishing industry or by web designers to occupy
-                    the space which will later be filled with 'real' content. This is required when, for example, the
-                    final text is not yet available. Dummy texts have been in use by typesetters since the 16th century.
+    <!-- hero-section -->
+    <div>
+        <swiper-container class="mySwiper" navigation="true" pagination="false">
+            <swiper-slide>
+                <h1>
+                    Providing Brilliant Ideas <br />
+                    For Your <span class="mov"> </span>
+                </h1>
+                <p>
+                    Launch your campaign and benefit from our expertise on designing
+                    and<br />
+                    managing conversion centered Tailwind CSS html page.
                 </p>
+            </swiper-slide>
+            <swiper-slide>
+                <h1>
+                    Providing Brilliant Ideas <br />
+                    For Your <span> Marketing</span>
+                </h1>
+                <p>
+                    Launch your campaign and benefit from our expertise on designing
+                    and<br />
+                    managing conversion centered Tailwind CSS html page.
+                </p>
+            </swiper-slide>
+            <swiper-slide>
+                <h1>
+                    Providing Brilliant Ideas <br />
+                    For Your <span> Marketing</span>
+                </h1>
+                <p>
+                    Launch your campaign and benefit from our expertise on designing
+                    and<br />
+                    managing conversion centered Tailwind CSS html page.
+                </p>
+            </swiper-slide>
+        </swiper-container>
+    </div>
+    <!-- end -hero -->
+
+    <!-- ======= About Us Section ======= -->
+    <div id="about" class="about bg-light pb-5 pt-5">
+        <div class="container">
+        <div class="row align-items-center justify-content-between pt-5 pb-5 gap-1">
+            <div data-aos="fade-right" data-aos-duration="3000"class="col-md-5 col-sm-12">
+                <img class="img-fluid rounded-lg shadow-lg rounded" src="../Assets/about.jpg"alt=""/>
+            </div>
+
+            <div data-aos="fade-left" data-aos-duration="3000" class="col-md-5 col-sm-12 pt-4 pt-lg-0 content">
+            <h6 class="pb-2" style="color: #ea580c">WHO WE ARE ?</h6>
+            <h3 class="pb-2">Our Company Story</h3>
+            <p class="text-muted lh-base">
+                Start working with Upwind that can provide everything you need to
+                generate awareness, drive traffic, connect. Dummy text is text
+                that is used in the publishing industry or by web designers to
+                occupy the space which will later be filled with 'real' content.
+                This is required when, for example, the final text is not yet
+                available. Dummy texts have been in use by typesetters since the
+                16th century.
+            </p>
             </div>
         </div>
+        </div>
     </div>
-</div>
-<!-- end -->
+    <!-- end -->
 
-
-<!-- section-services -->
-<div id="Services" class="">
-    <div class="container pt-4 pb-5">
+    <!-- section-services -->
+    <div id="Services" class="">
+      <div class="container pt-4 pb-5">
         <div class="row align-items-center pt-4 pb-5">
-            <div data-aos="fade-right"  data-aos-duration="3000" class="col-md-6 col-sm-12 ">
-                <h6 class="pt-2" style="color: #EA580c">WHAT WE DO ?</h6>
-                <h3 class="pt-2">Perfect Solution For Your<br>
-                    Business</h3>
-            </div>
-            <div data-aos="fade-left"  data-aos-duration="3000" class="col-md-6 col-sm-12 ">
-                <p class=" text-muted pt-2">Launch your campaign and benefit from our expertise on designing and<br>
-                    managing
-                    conversion centered
-                    Tailwind CSS html page.</p>
-            </div>
-        </div>
-
-        <div class="pr-5 ">
-            <div class="row mt-5 mb-5 ">
-                <div data-aos="fade-up"  data-aos-duration="3000" class="col-lg-4 col-md-6 col-sm-12 pb-5 pt-5 pr-5">
-                    <div class="surv-card row ">
-                        <span class="icons-span"><i class="bi bi-circle-half"></i></span>
-                    </div>
-                    <div>
-                        <a class="survlinks">Grow Your Business</a>
-                        <p class=" text-muted  mt-3">The phrasal sequence of the is now so <br>that many campaign and
-                            benefit</p>
-
-                        <div class="mt-2">
-                            <a href="" class="read-more text-underline-hover">Read More <i
-                                    class="bi bi-arrow-right-short"></i> </a>
-                        </div>
-                    </div>
-                </div>
-                <div data-aos="fade-up" data-aos-duration="3000" class="col-lg-4 col-md-6 col-sm-12 pb-5 pt-5 pr-5">
-                    <div class="surv-card row ">
-                        <span class="icons-span"><i class="bi bi-cpu-fill"></i></span>
-                    </div>
-                    <div>
-                        <a class="survlinks">Drive More Sales</a>
-                        <p class=" text-muted  mt-3">The phrasal sequence of the is now so <br>that many campaign and
-                            benefit</p>
-                        <div class="mt-2">
-                            <a href="" class="read-more text-underline-hover">Read More<i
-                                    class="bi bi-arrow-right-short"></i> </a>
-                        </div>
-                    </div>
-
-                </div>
-                <div data-aos="fade-up"  data-aos-duration="3000" class="col-lg-4 col-md-6 col-sm-12 pb-5 pt-5 pr-5">
-                    <div class="surv-card row">
-                        <span class="icons-span"><i class="bi bi-x-diamond-fill"></i></span>
-                    </div>
-                    <div>
-                        <a class="survlinks">Handled By Expert</a>
-                        <p class=" text-muted mt-3">The phrasal sequence of the is now so <br>that many campaign and
-                            benefit</p>
-                        <div class="mt-2">
-                            <a href="" class="read-more text-underline-hover">Read More<i
-                                    class="bi bi-arrow-right-short"></i> </a>
-                        </div>
-                    </div>
-
-                </div>
-
-            
-            
-                <div data-aos="fade-up"  data-aos-duration="3000" class="col-lg-4 col-md-6 col-sm-12 pb-5 pt-5 pr-5">
-                    <div class="surv-card row">
-                        <span class="icons-span">
-                            <i class="bi bi-flower2"></i>
-                        </span>
-                    </div>
-                    <div>
-                        <a class="survlinks">Discussion For Idea</a>
-                        <p class=" text-muted mt-2">The phrasal sequence of the is now so <br>that many campaign and
-                            benefit</p>
-                        <div class="mt-3">
-                            <a href="" class="read-more text-underline-hover">Read More<i
-                                    class="bi bi-arrow-right-short"></i> </a>
-                        </div>
-                    </div>
-
-                </div>
-                <div data-aos="fade-up"  data-aos-duration="3000" class="col-lg-4 col-md-6  col-sm-12 pb-5 pt-5 pr-5" >
-                    <div class="surv-card row">
-                        <span class="icons-span">
-                            <i class="bi bi-basket2"></i>
-                        </span>
-
-                    </div>
-                    <div>
-                        <a class=" survlinks ">Increase Conversion</a>
-                        <p class=" text-muted mt-2">The phrasal sequence of the is now so <br>that many campaign and
-                            benefit</p>
-                        <div class="mt-3">
-                            <a href="" class="read-more text-underline-hover">Read More<i
-                                    class="bi bi-arrow-right-short"></i> </a>
-                        </div>
-                    </div>
-
-                </div>
-                <div data-aos="fade-up"  data-aos-duration="3000" class="col-lg-4 col-md-6  col-sm-12  pb-5 pt-5 pr-5">
-                    <div class="surv-card row">
-                        <span class="icons-span"><i class="bi bi-arrows-move"></i></span>
-                    </div>
-                    <div>
-                        <a class=" survlinks ">Sales Growth Idea</a>
-                        <p class=" text-muted mt-2">The phrasal sequence of the is now so <br>that many campaign and
-                            benefit</p>
-                        <div class="mt-3">
-                            <a href="" class="read-more text-underline-hover">Read More<i
-                                    class="bi bi-arrow-right-short"></i> </a>
-                        </div>
-                    </div>
-
-                </div>
-
-            </div>
-
-
-
-        </div>
-    </div>
-    <!-- end container -->
-
-    <div class="container mt-5">
-
-        <div data-aos="fade-down"  data-aos-duration="3000"class="pt-5 text-center">
-            <h6 class="pb-2 font-medium" 0>
-                WORK PROCESS
-            </h6>
-            <h3 class="pb-3" style="word-spacing: -3px">
-                Digital System For Our Business
-
+          <div
+            data-aos="fade-right"
+            data-aos-duration="3000"
+            class="col-md-6 col-sm-12"
+          >
+            <h6 class="pt-2" style="color: #ea580c">WHAT WE DO ?</h6>
+            <h3 class="pt-2">
+              Perfect Solution For Your<br />
+              Business
             </h3>
-            <p class=" text-muted ">Launch your campaign and benefit from our expertise on designing and <br>managing
-                conversion centered Tailwind
-                CSS html page.</p>
-
+          </div>
+          <div
+            data-aos="fade-left"
+            data-aos-duration="3000"
+            class="col-md-6 col-sm-12"
+          >
+            <p class="text-muted pt-2">
+              Launch your campaign and benefit from our expertise on designing
+              and<br />
+              managing conversion centered Tailwind CSS html page.
+            </p>
+          </div>
         </div>
-    </div>
 
-    <div class="container">
+        <div class="pr-5">
+          <div class="row mt-5 mb-5">
+            <div
+              data-aos="fade-up"
+              data-aos-duration="3000"
+              class="col-lg-4 col-md-6 col-sm-12 pb-5 pt-5 pr-5"
+            >
+              <div class="surv-card row">
+                <span class="icons-span"
+                  ><i class="bi bi-circle-half"></i
+                ></span>
+              </div>
+              <div>
+                <a class="survlinks">Grow Your Business</a>
+                <p class="text-muted mt-3">
+                  The phrasal sequence of the is now so <br />that many campaign
+                  and benefit
+                </p>
+
+                <div class="mt-2">
+                  <a href="" class="read-more text-underline-hover"
+                    >Read More <i class="bi bi-arrow-right-short"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div
+              data-aos="fade-up"
+              data-aos-duration="3000"
+              class="col-lg-4 col-md-6 col-sm-12 pb-5 pt-5 pr-5"
+            >
+              <div class="surv-card row">
+                <span class="icons-span"><i class="bi bi-cpu-fill"></i></span>
+              </div>
+              <div>
+                <a class="survlinks">Drive More Sales</a>
+                <p class="text-muted mt-3">
+                  The phrasal sequence of the is now so <br />that many campaign
+                  and benefit
+                </p>
+                <div class="mt-2">
+                  <a href="" class="read-more text-underline-hover"
+                    >Read More<i class="bi bi-arrow-right-short"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div
+              data-aos="fade-up"
+              data-aos-duration="3000"
+              class="col-lg-4 col-md-6 col-sm-12 pb-5 pt-5 pr-5"
+            >
+              <div class="surv-card row">
+                <span class="icons-span"
+                  ><i class="bi bi-x-diamond-fill"></i
+                ></span>
+              </div>
+              <div>
+                <a class="survlinks">Handled By Expert</a>
+                <p class="text-muted mt-3">
+                  The phrasal sequence of the is now so <br />that many campaign
+                  and benefit
+                </p>
+                <div class="mt-2">
+                  <a href="" class="read-more text-underline-hover"
+                    >Read More<i class="bi bi-arrow-right-short"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div
+              data-aos="fade-up"
+              data-aos-duration="3000"
+              class="col-lg-4 col-md-6 col-sm-12 pb-5 pt-5 pr-5"
+            >
+              <div class="surv-card row">
+                <span class="icons-span">
+                  <i class="bi bi-flower2"></i>
+                </span>
+              </div>
+              <div>
+                <a class="survlinks">Discussion For Idea</a>
+                <p class="text-muted mt-2">
+                  The phrasal sequence of the is now so <br />that many campaign
+                  and benefit
+                </p>
+                <div class="mt-3">
+                  <a href="" class="read-more text-underline-hover"
+                    >Read More<i class="bi bi-arrow-right-short"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div
+              data-aos="fade-up"
+              data-aos-duration="3000"
+              class="col-lg-4 col-md-6 col-sm-12 pb-5 pt-5 pr-5"
+            >
+              <div class="surv-card row">
+                <span class="icons-span">
+                  <i class="bi bi-basket2"></i>
+                </span>
+              </div>
+              <div>
+                <a class="survlinks">Increase Conversion</a>
+                <p class="text-muted mt-2">
+                  The phrasal sequence of the is now so <br />that many campaign
+                  and benefit
+                </p>
+                <div class="mt-3">
+                  <a href="" class="read-more text-underline-hover"
+                    >Read More<i class="bi bi-arrow-right-short"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div
+              data-aos="fade-up"
+              data-aos-duration="3000"
+              class="col-lg-4 col-md-6 col-sm-12 pb-5 pt-5 pr-5"
+            >
+              <div class="surv-card row">
+                <span class="icons-span"
+                  ><i class="bi bi-arrows-move"></i
+                ></span>
+              </div>
+              <div>
+                <a class="survlinks">Sales Growth Idea</a>
+                <p class="text-muted mt-2">
+                  The phrasal sequence of the is now so <br />that many campaign
+                  and benefit
+                </p>
+                <div class="mt-3">
+                  <a href="" class="read-more text-underline-hover"
+                    >Read More<i class="bi bi-arrow-right-short"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end container -->
+
+      <div class="container mt-5">
+        <div
+          data-aos="fade-down"
+          data-aos-duration="3000"
+          class="pt-5 text-center"
+        >
+          <h6 class="pb-2 font-medium" 0>WORK PROCESS</h6>
+          <h3 class="pb-3" style="word-spacing: -3px">
+            Digital System For Our Business
+          </h3>
+          <p class="text-muted">
+            Launch your campaign and benefit from our expertise on designing and
+            <br />managing conversion centered Tailwind CSS html page.
+          </p>
+        </div>
+      </div>
+
+      <div class="container">
         <div class="timeline">
-                <div class="timeline-row">
-                    <div class="timeline-time">
-                        <h6>Strategy</h6>
-                        <p class=" text-muted ">The generated injected humour, or non-characteristic words etc. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,</p>
-                    </div>
-                    <div class="timeline-content">
-                       
-                        <img class="left-imag" src="./Assets/design-thinking.svg">
-                       
-                    </div>
-                </div>
-        
-                <div class="timeline-row">
-                    <div class="timeline-time">
-                        <h6>Development</h6>
-                        <p class=" text-muted ">The generated injected humour, or non-characteristic words etc. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,</p>
-                    </div>
-                    <div class="timeline-content">
-                        <img class="right-imag" src="./Assets/coding.svg">
-                    </div>
-                </div>
-        
-                <div class="timeline-row">
-                    <div class="timeline-time">
-                        <h6>Launch</h6>
-                        <p class=" text-muted ">The generated injected humour, or non-characteristic words etc. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,</p>
-                    </div>
-                    <div class="timeline-content">
-                        <img class="left-imag" src="./Assets/office-desk.svg">
-                    </div>
-                </div>
-        
+          <div class="timeline-row">
+            <div class="timeline-time">
+              <h6>Strategy</h6>
+              <p class="text-muted">
+                The generated injected humour, or non-characteristic words etc.
+                Cum sociis natoque penatibus et magnis dis parturient montes,
+                nascetur ridiculus mus. Donec quam felis,
+              </p>
             </div>
-        </div>
-</div> 
+            <div class="timeline-content">
+              <img class="left-imag" src="./Assets/design-thinking.svg" />
+            </div>
+          </div>
 
-<!-- end -->
-<!-- start Portfolio -->
-<div id="Portfolio" class="bg-light pb-3  mt-5">
-    <div class="container ">
+          <div class="timeline-row">
+            <div class="timeline-time">
+              <h6>Development</h6>
+              <p class="text-muted">
+                The generated injected humour, or non-characteristic words etc.
+                Cum sociis natoque penatibus et magnis dis parturient montes,
+                nascetur ridiculus mus. Donec quam felis,
+              </p>
+            </div>
+            <div class="timeline-content">
+              <img class="right-imag" src="./Assets/coding.svg" />
+            </div>
+          </div>
+
+          <div class="timeline-row">
+            <div class="timeline-time">
+              <h6>Launch</h6>
+              <p class="text-muted">
+                The generated injected humour, or non-characteristic words etc.
+                Cum sociis natoque penatibus et magnis dis parturient montes,
+                nascetur ridiculus mus. Donec quam felis,
+              </p>
+            </div>
+            <div class="timeline-content">
+              <img class="left-imag" src="./Assets/office-desk.svg" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- end -->
+    <!-- start Portfolio -->
+    <div id="Portfolio" class="bg-light pb-3 mt-5">
+        <div class="container">
         <div class="pt-5 text-center">
-            <h6 class="pb-2 font-medium" style="color: #EA580c"> PORTFOLIO</h6>
-            <h3 class="pb-3" style="word-spacing: -3px"> Our Works & Projects </h3>
-            <p class=" text-muted ">Launch your campaign and benefit from our expertise on designing and <br>managing
-                conversion centered Tailwind
-                CSS html page.</p>
+            <h6 class="pb-2 font-medium" style="color: #ea580c">PORTFOLIO</h6>
+            <h3 class="pb-3" style="word-spacing: -3px">Our Works & Projects</h3>
+            <p class="text-muted">
+            Launch your campaign and benefit from our expertise on designing and
+            <br />managing conversion centered Tailwind CSS html page.
+            </p>
         </div>
-    </div>
-    <div class="container mt-5">
-        <div class="row mb-5">
-            <div class="col-lg-3 mt-4 img-container">
-                <img class="img-fluid rounded hovered-img" src="./Assets/portfolio1.jpg">
-                <div class="img-container-mask">
-                    <a class="camera"><i class="bi bi-camera"></i></a>
-                    <div class="camera-text">
-                        <h6>Mockup Collection</h6>
-                        <h6>Abstract</h6>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 mt-4 img-container">
-            <img class="img-fluid rounded hovered-img" src="./Assets/portfolio2.jpg">
-            <div class="img-container-mask">
-                <a class="camera"><i class="bi bi-camera"></i></a>
-                <div class="camera-text">
-                    <h6>Mockup Collection</h6>
-                    <h6>Abstract</h6>
-                </div>
-            </div>
-            </div>
-            <div class="col-lg-3 mt-4 img-container">
-            <img class="img-fluid  rounded hovered-img" src="./Assets/portfolio3.jpg">
-            <div class="img-container-mask">
-                <a class="camera"><i class="bi bi-camera"></i></a>
-                <div class="camera-text">
-                    <h6>Mockup Collection</h6>
-                    <h6>Abstract</h6>
-                </div>
-            </div>
-            </div>
-            <div class="col-lg-3 mt-4 img-container">
-            <img class="img-fluid  rounded hovered-img" src="./Assets/portfolio4.jpg">
-            <div class="img-container-mask">
-                <a class="camera"><i class="bi bi-camera"></i></a>
-                <div class="camera-text">
-                    <h6>Mockup Collection</h6>
-                    <h6>Abstract</h6>
-                </div>
-            </div>
-            </div>
-            <div class="col-lg-3 mt-4 img-container">
-                <img class="img-fluid  rounded hovered-img" src="./Assets/portfolio5.jpg">
-                <div class="img-container-mask">
-                    <a class="camera"><i class="bi bi-camera"></i></a>
-                    <div class="camera-text">
-                        <h6>Mockup Collection</h6>
-                        <h6>Abstract</h6>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 mt-4 img-container">
-                <img class="img-fluid  rounded hovered-img" src="./Assets/portfolio6.jpg">
-                <div class="img-container-mask">
-                    <a class="camera"><i class="bi bi-camera"></i></a>
-                    <div class="camera-text">
-                        <h6>Mockup Collection</h6>
-                        <h6>Abstract</h6>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 mt-4 img-container ">
-                <img class="img-fluid rounded hovered-img" src="./Assets/portfolio7.jpg">
-                <div class="img-container-mask">
-                    <a class="camera"><i class="bi bi-camera"></i></a>
-                    <div class="camera-text">
-                        <h6>Mockup Collection</h6>
-                        <h6>Abstract</h6>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 mt-4 img-container">
-                <img class="imge rounded  rounded hovered-img" src="./Assets/portfolio8.jpg">
-                <div class="img-container-mask">
-                    <a class="camera"><i class="bi bi-camera"></i></a>
-                    <div class="camera-text">
-                        <h6>Mockup Collection</h6>
-                        <h6>Abstract</h6>
-                    </div>
-                </div>
-            </div>
-    
         </div>
-    </div>
-    <div class="protf-3">
-        <div class="protf-mask">
-            <div class="container">
-                <div class="protf-text">   <h3>Ready to start your next web project now?</h3>
-                    <p class=" text-muted ">Launch your campaign and benefit from our expertise on designing and<br>
+        <div class="container mt-5">
+            <div class="row mb-5">
+            <div class="col-lg-3 mt-4 img-container">
+            <img
+              class="img-fluid rounded hovered-img"
+              src="./Assets/portfolio1.jpg"
+            />
+            <div class="img-container-mask">
+              <a class="camera"><i class="bi bi-camera"></i></a>
+              <div class="camera-text">
+                <h6>Mockup Collection</h6>
+                <h6>Abstract</h6>
+              </div>
+            </div>
+            </div>
+            <div class="col-lg-3 mt-4 img-container">
+            <img
+              class="img-fluid rounded hovered-img"
+              src="./Assets/portfolio2.jpg"
+            />
+            <div class="img-container-mask">
+              <a class="camera"><i class="bi bi-camera"></i></a>
+              <div class="camera-text">
+                <h6>Mockup Collection</h6>
+                <h6>Abstract</h6>
+              </div>
+            </div>
+            </div>
+            <div class="col-lg-3 mt-4 img-container">
+            <img
+              class="img-fluid rounded hovered-img"
+              src="./Assets/portfolio3.jpg"
+            />
+            <div class="img-container-mask">
+              <a class="camera"><i class="bi bi-camera"></i></a>
+              <div class="camera-text">
+                <h6>Mockup Collection</h6>
+                <h6>Abstract</h6>
+              </div>
+            </div>
+            </div>
+            <div class="col-lg-3 mt-4 img-container">
+            <img
+              class="img-fluid rounded hovered-img"
+              src="./Assets/portfolio4.jpg"
+            />
+            <div class="img-container-mask">
+              <a class="camera"><i class="bi bi-camera"></i></a>
+              <div class="camera-text">
+                <h6>Mockup Collection</h6>
+                <h6>Abstract</h6>
+              </div>
+            </div>
+            </div>
+            <div class="col-lg-3 mt-4 img-container">
+            <img
+              class="img-fluid rounded hovered-img"
+              src="./Assets/portfolio5.jpg"
+            />
+            <div class="img-container-mask">
+              <a class="camera"><i class="bi bi-camera"></i></a>
+              <div class="camera-text">
+                <h6>Mockup Collection</h6>
+                <h6>Abstract</h6>
+              </div>
+            </div>
+            </div>
+            <div class="col-lg-3 mt-4 img-container">
+            <img
+              class="img-fluid rounded hovered-img"
+              src="./Assets/portfolio6.jpg"
+            />
+            <div class="img-container-mask">
+              <a class="camera"><i class="bi bi-camera"></i></a>
+              <div class="camera-text">
+                <h6>Mockup Collection</h6>
+                <h6>Abstract</h6>
+              </div>
+            </div>
+            </div>
+            <div class="col-lg-3 mt-4 img-container">
+            <img
+              class="img-fluid rounded hovered-img"
+              src="./Assets/portfolio7.jpg"
+            />
+            <div class="img-container-mask">
+              <a class="camera"><i class="bi bi-camera"></i></a>
+              <div class="camera-text">
+                <h6>Mockup Collection</h6>
+                <h6>Abstract</h6>
+              </div>
+            </div>
+            </div>
+            <div class="col-lg-3 mt-4 img-container">
+            <img
+              class="img-fluid rounded hovered-img"
+              src="./Assets/portfolio8.jpg"
+            />
+            <div class="img-container-mask">
+              <a class="camera"><i class="bi bi-camera"></i></a>
+              <div class="camera-text">
+                <h6>Mockup Collection</h6>
+                <h6>Abstract</h6>
+              </div>
+            </div>
+            </div>
+            </div>
+        </div>
+        <div class="protf-3">
+            <div class="protf-mask">
+                <div class="container">
+                    <div class="protf-text">
+                        <h3>Ready to start your next web project now?</h3>
+                        <p class="text-muted">Launch your campaign and benefit from our expertise on designingand<br />
                         managing conversion centered Tailwind CSS html page.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- end -->
+    <!-- start -->
+    <div id="Review" class="bg-light pb-5">
+        <div class="container">
+            <div class="pt-5 text-center">
+                <h6 class="pb-2 font-medium" style="color: #ea580c">TESTIMONIAL</h6>
+                <h3 class="pb-3" style="word-spacing: -3px">Client's Review</h3>
+                <p class="text-muted">Launch your campaign and benefit from our expertise on designing and<br/>managing conversion centered Tailwind CSS html page.</p>
+            </div>
+
+            <div class="pb-5">
+                <swiper-container class="mySwiper sec-slider col-sm-12" pagination="false" slides-per-view="2" space-between="20" free-mode="false">
+                    <swiper-slide class="sec-swiper rounded">
+                        <div class=" media d-flex align-items-center p-0 flex-sm-column flex-lg-row">
+                            <img src="./Assets/swiper2-3.jpg" class="img-slider2 rounded-image"/>
+                            <div class="">
+                                <p class="text-muted">" It seems that only fragments of the original text remainin the Lorem Ipsum texts used today. "</p>
+                                <h6 style="color: #ea580c">Thomas</h6>
+                                <h6 class="text-muted">Staff Engineer, Algolia</h6>
+                            </div>
                         </div>
-             
+                    </swiper-slide>
+                    <swiper-slide class="sec-swiper rounded">
+                        <div class=" media d-flex align-items-center p-0 flex-sm-column flex-lg-row">
+                            <img src="./Assets/swiper2-1.jpg" class="img-slider2" />
+                                <div class="">
+                                    <p class="text-muted"> " It seems that only fragments of the original text remainin the Lorem Ipsum texts used today. "</p>
+                                    <h6 style="color: #ea580c">Thomas</h6>
+                                    <h6 class="text-muted">Staff Engineer, Algolia</h6>
+                                </div>
+                        </div>
+                    </swiper-slide>
+                    <swiper-slide class="sec-swiper rounded">
+                        <div class="media d-flex align-items-center p-0 flex-sm-column flex-lg-row">
+                            <img src="./Assets/swiper2-2.jpg" class="img-slider2" />
+                            <div class="">
+                                <p class="text-muted">" It seems that only fragments of the original text remain in the Lorem Ipsum texts used today. "</p>
+                                <h6 style="color: #ea580c">Thomas</h6>
+                                <h6 class="text-muted">Staff Engineer, Algolia</h6>
+                            </div>
+                        </div>
+                    </swiper-slide>
+                    <swiper-slide class="sec-swiper rounded">
+                        <div class=" media d-flex align-items-center p-0flex-sm-column flex-lg-row">
+                        <img src="./Assets/swiper2-4.jpg" class="img-slider2" />
+                        <div class="">
+                            <p class="text-muted">" It seems that only fragments of the original text remain in the Lorem Ipsum texts used today. "</p>
+                            <h6 style="color: #ea580c">Thomas</h6>
+                            <h6 class="text-muted">Staff Engineer, Algolia</h6>
+                        </div>
+                        </div>
+                    </swiper-slide>
+                </swiper-container>
             </div>
-        
         </div>
-        
     </div>
-</div>
+    <!-- end -->
 
-<!-- end -->
-<!-- start -->
-
-<div id="Review" class="bg-light pb-5 " >
-    <div class="container ">
+    <!-- start -->
+    <div id="Review" class="pb-5 pt-3">
+        <div class="container">
         <div class="pt-5 text-center">
-            <h6 class="pb-2 font-medium" style="color: #EA580c"> TESTIMONIAL</h6>
-            <h3 class="pb-3" style="word-spacing: -3px"> Client's Review </h3>
-            <p class=" text-muted ">Launch your campaign and benefit from our expertise on designing and <br>managing
-                conversion centered Tailwind
-                CSS html page.</p>
+            <h6 class="pb-2 font-medium" style="color: #ea580c">PRICING</h6>
+            <h3 class="pb-3" style="word-spacing: -3px">Comfortable Rates</h3>
+            <p class="text-muted">
+                Launch your campaign and benefit from our expertise on designing and
+                <br />managing conversion centered Tailwind CSS html page.
+            </p>
+        </div>
+        </div>
+        <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-12 col-md-6 mb-4">
+                <div class="card card1">
+                    <div class="card-body">
+                    <h5 class="card-title py-3">Basic</h5>
+                    <span>$</span>
+                    <span>10 </span>
+                    <span>/ month</span>
+                    <p class="card-text py-3 text-muted">Basic features for up to 10 users.</p>
+                    <a href="#" class="btn my-2">Started Now</a>
+                </div>
+                <div class="border border-gray my-2"></div>
+
+                <div class="card-body">
+                    <ul class="text-muted">
+                        <li><img src="./Assets/yes.png" /> documentation</li>
+                        <li><img src="./Assets/yes.png" />Working materials in Figma</li>
+                        <li><img src="./Assets/yes.png" />100GB cloud storage</li>
+                        <li><img src="./Assets/yes.png" />500 team members</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-12 col-md-6 mb-4">
+            <div class="card card1">
+                <div class="card-body">
+                    <h5 class="card-title py-3">Basic</h5>
+                    <span>$</span>
+                    <span>10 </span>
+                    <span>/ month</span>
+                    <p class="card-text py-3 text-muted">Basic features for up to 10 users.</p>
+                    <a href="#" class="btn my-2">Started Now</a>
+                </div>
+                <div class="border border-gray my-2"></div>
+                <div class="card-body">
+                    <ul class="text-muted">
+                        <li><img src="./Assets/yes.png" /> documentation</li>
+                        <li><img src="./Assets/yes.png" />Working materials in Figma</li>
+                        <li><img src="./Assets/yes.png" />100GB cloud storage</li>
+                        <li><img src="./Assets/yes.png" />500 team members</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-12 col-md-6 mb-4">
+            <div class="card card1">
+                <div class="card-body">
+                    <h5 class="card-title py-3">Basic</h5>
+                    <span>$</span>
+                    <span>10 </span>
+                    <span>/ month</span>
+                    <p class="card-text py-3 text-muted">Basic features for up to 10 users.</p>
+                    <a href="#" class="btn my-2">Started Now</a>
+                </div>
+                <div class="border border-gray my-2"></div>
+                <div class="card-body">
+                    <ul class="text-muted">
+                        <li><img src="./Assets/yes.png" /> documentation</li>
+                        <li><img src="./Assets/yes.png" />Working materials in Figma</li>
+                        <li><img src="./Assets/yes.png" />100GB cloud storage</li>
+                        <li><img src="./Assets/yes.png" />500 team members</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        </div>
         </div>
 
+        <div class="bg-light my-5 pb-3">
+        <div class="container">
+            <div class="pt-5 text-center">
+            <h6 class="pb-2 font-medium" style="color: #ea580c">OUR TEAM</h6>
+            <h3 class="pb-3" style="word-spacing: -3px">Creative Minds</h3>
+            <p class="text-muted">
+              Launch your campaign and benefit from our expertise on designing
+              and <br />managing conversion centered Tailwind CSS html page.
+            </p>
+            </div>
 
-    <div class="pb-5">
-    <swiper-container class="mySwiper sec-slider  " pagination="false"  slides-per-view="2"
-    space-between="20" free-mode="false" >
-    <swiper-slide class="sec-swiper rounded">
-        <div class=" media d-flex align-items-center p-0 flex-sm-column flex-lg-row">
-            <!-- media query for image in all screen sizes -->
-            <img src="./Assets/swiper2-3.jpg" class="img-slider2 rounded-image">
-            <div class="">
-                <p class=" text-muted ">" It seems that only fragments of the original text remain in the Lorem Ipsum texts used today. "</p>
-                <h6 style="color: #EA580c">Thomas </h6>
-                <h6 class=" text-muted ">Staff Engineer, Algolia</h6>
+            <div class="row  my-5">
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <img class="img-fluid rounded" src="./Assets/swiper2-3.jpg" />
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <img class="img-fluid rounded" src="./Assets/swiper2-2.jpg" />
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <img class="img-fluid rounded" src="./Assets/swiper2-1.jpg"/>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <img class="img-fluid rounded" src="./Assets/swiper2-4.jpg"/>
+                    </div>
             </div>
-        </div>
-    </swiper-slide>
-    <swiper-slide class="sec-swiper rounded">
-        <div class=" media d-flex align-items-center p-0 flex-sm-column flex-lg-row">
-            <img src="./Assets/swiper2-1.jpg" class="img-slider2">
-            <div class="">
-                <p class=" text-muted ">" It seems that only fragments of the original text remain in the Lorem Ipsum texts used today. "</p>
-                <h6 style="color: #EA580c"> Thomas </h6>
-                <h6 class=" text-muted ">Staff Engineer, Algolia</h6>
+            <div class="row">
+                <div class="col-lg-3 col-6">
+                    <h2 class="mt-5">40+</h2>
+                    <h5 class="text-muted"><small>Projects</small></h5>
+                </div>
+                <div class="col-lg-3 col-6">
+                    <h2 class="mt-5">200+</h2>
+                    <h5 class="text-muted"><small>Clients</small></h5>
+                </div>
+                <div class="col-lg-3 col-6">
+                    <h2 class="mt-5">457K</h2>
+                    <h5 class="text-muted"><small>Members</small></h5>
+                </div>
+                <div class="col-lg-3 col-6">
+                    <h2 class="mt-5">150+</h2>
+                    <h5 class="text-muted"><small>Employee</small></h5>
+                </div>
             </div>
+
+            
+            <div class="row  my-5">
+                <div class="col-lg-2 col-5 ">
+                    <img class="trademark" src="./Assets/amazon.svg" />
+                </div>
+                <div class="col-lg-2 col-5 ">
+                    <img class="trademark" src="./Assets/spotify.svg" />
+                </div>
+                <div class="col-lg-2 col-5 ">
+                    <img class="trademark" src="./Assets/google.svg" />
+                </div>
+                <div class="col-lg-2 col-5 ">
+                    <img class="trademark" src="./Assets/lenovo.svg" />
+                </div>
+                <div class="col-lg-2 col-5 ">
+                    <img class="trademark" src="./Assets/paypal.svg" />
+                </div>
+                <div class="col-lg-2 col-5 ">
+                    <img class="trademark" src="./Assets/shopify.svg" />
+                </div>
         </div>
-    </swiper-slide>
-    <swiper-slide class="sec-swiper rounded">
-        <div class=" media d-flex align-items-center p-0 flex-sm-column flex-lg-row">
-            <img src="./Assets/swiper2-2.jpg" class="img-slider2 ">
-            <div class="">
-                <p class=" text-muted ">" It seems that only fragments of the original text remain in the Lorem Ipsum texts used today. "</p>
-                <h6 style="color: #EA580c">Thomas </h6>
-                <h6 class=" text-muted ">Staff Engineer, Algolia</h6>
-            </div>
         </div>
-    </swiper-slide>
-    <swiper-slide class="sec-swiper rounded">
-        <div class=" media d-flex align-items-center p-0 flex-sm-column flex-lg-row">
-            <img src="./Assets/swiper2-4.jpg" class="img-slider2 ">
-            <div class="">
-                <p class=" text-muted"> " It seems that only fragments of the original text remain in the Lorem Ipsum texts used today. "</p>
-                <h6 style="color: #EA580c">Thomas </h6>
-                <h6 class=" text-muted ">Staff Engineer, Algolia</h6>
-            </div>
         </div>
-    </swiper-slide>
-</swiper-container>
     </div>
-</div>
-</div>
-<!-- end -->
-
-<!-- start -->
-<div id="Review" class="pb-5 pt-3" >
-    <div class="container ">
-        <div class="pt-5 text-center">
-            <h6 class="pb-2 font-medium" style="color: #EA580c"> PRICING</h6>
-            <h3 class="pb-3" style="word-spacing: -3px"> Comfortable Rates </h3>
-            <p class=" text-muted ">Launch your campaign and benefit from our expertise on designing and <br>managing
-                conversion centered Tailwind
-                CSS html page.</p>
+    <!-- end -->
+    <!-- start -->
+    <div id="Blog">
+        <div class="container">
+            <div class="pt-5 text-center">
+                <h6 class="pb-2 font-medium" style="color: #ea580c">BLOGS</h6>
+                <h3 class="pb-3" style="word-spacing: -3px">Latest News</h3>
+                <p class="text-muted">Launch your campaign and benefit from our expertise on designing and<br/>managing conversion centered Tailwind CSS html page.</p>
+            </div>
         </div>
+        <div class="container ">
+            <div class="row">
+                <div class="col-lg-4 col-12 col-md-6 mb-4">
+                    <div class="card" >
+                        <img class="card-img-top" src="./Assets/blog1.jpg" alt="Card image cap"/>
+                        <div class="card-body">
+                            <a class="card-title read-more">Building Your Corporate Identity from Upwind</a>
+                            <p class="card-text text-muted"> The phrasal sequence of the is now so that many campaign andbenefit.</p>
+                            <div class="mt-3">
+                                <a href="" class="read-more text-underline-hover">Read More<i class="bi bi-arrow-right-short"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                    
+                    <div class="col-lg-4 col-12 col-md-6 mb-4">
+                        <div class="card">
+                            <img class="card-img-top" src="./Assets/blog2.jpg" alt="Card image cap"/>
+                            <div class="card-body">
+                                <a class="card-title read-more">The Right Hand of Business IT World</a>
+                                <p class="card-text text-muted"> The phrasal sequence of the is now so that many campaign and benefit.</p>
+                                <div class="mt-3">
+                                <a href="" class="read-more text-underline-hover">Read More<i class="bi bi-arrow-right-short"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>    
+                    
+                    <div class="col-lg-4 col-12 col-md-6 mb-4">
+                        <div class="card">
+                            <img class="card-img-top" src="./Assets/blog3.jpg" alt="Card image cap"/>
+                            <div class="card-body">
+                                <a class="card-title read-more">Building Your Corporate Identity from Upwind</a>
+                                <p class="card-text text-muted">The phrasal sequence of the is now so that many campaign andbenefit.</p>
+                                <div class="mt-3">
+                                    <a href="" class="read-more text-underline-hover">Read More<i class="bi bi-arrow-right-short"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                
+
+            </div>
+        </div>
+        
     </div>
+    <!-- end -->
+    <!-- start -->
+    <div class="Contact-us bg-light">
+        <div class="container">
+            <div class="pt-5 text-center">
+            <h6 class="pb-2 font-medium" style="color: #ea580c">CONTACT US</h6>
+            <h3 class="pb-3" style="word-spacing: -3px">Get In Touch !</h3>
+            <p class="text-muted">Launch your campaign and benefit from our expertise on designing and<br />managing conversion centered Tailwind CSS html page.</p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row my-5 ">
+                <form class="col-lg-8 col-md-7 col-sm-12">
+                    <div class="row">
+                    <div class="col py-2">
+                        <input type="text" class="form-control" placeholder="Name:" />
+                    </div>
+                    <div class="col py-2">
+                        <input type="email" class="form-control" placeholder="Email:" />
+                    </div>
+                    </div>
+                    <div class="col py-2">
+                    <input type="text" class="form-control" placeholder="Supject:" />
+                    </div>
+                    <div class="form-group py-2">
+                    <textarea
+                        class="form-control"
+                        id="exampleFormControlTextarea1"
+                        rows="3"
+                        placeholder="Message:"
+                    ></textarea>
+                    </div>
+                    <button
+                    type="submit"
+                    class="btn my-2"
+                    style="background-color: #ea580c; color: white"
+                    >
+                    Send Message
+                    </button>
+                </form>
+                <div class="col-lg-2 col-md-3 col-sm-12">
+                        <div class="">
+                            <div class="d-flex align-items-center gap-4">
+                            <i class="bi bi-telephone"></i>
+                            <h4>Phone</h4>
+                            </div>
+                            <p>+152 534-468-854</p>
+                        </div>
+                        <div class="">
+                        <div class="d-flex align-items-center gap-4">
+                            <i class="bi bi-envelope"></i>
+                            <h4>Email</h4>
+                        </div>
+                        <p>contact@example.com</p>
+                        </div>
+                        <div class="">
+                        <div class="d-flex align-items-center gap-4">
+                        <i class="bi bi-geo-alt"></i>
+                        <h4>Location</h4>
+                        </div>
+                            <p>C/54 Northwest Freeway, Suite 558, Houston, USA 485</p>
+                        </div>
+                </div>
+            </div>
+        </div>
 
-    <div class="card-deck d-flex container gap-4 mt-5 justify-content-center align-items-center">
-        <div class="card">
-            <div class="card-body">
-                <h5 class="card-title py-3">Basic</h5>
-                <span>$</span>
-                <span>10 </span>
-                <span>/ month</span>
-                <p class="card-text py-3 text-muted">Basic features for up to 10 users.</p>
-                <a href="#" class="btn my-2 ">Started Now</a>
+        <footer class="text-center text-lg-start">
+        <!-- Copyright -->
+            <div class="text-center p-3" style="background-color: #1e293b">
+            © 2020 Copyright:
+            <a class="text-dark" href="https://mdbootstrap.com/">MDBootstrap.com</a>
             </div>
-            <div class="border border-gray my-2"></div>
-            <div class="card-body">
-                <ul class="text-muted">
-                    <li> <img src="./Assets/yes.png"> documentation</li>
-                    <li><img src="./Assets/yes.png">Working materials in Figma</li>
-                    <li><img src="./Assets/yes.png">100GB cloud storage</li>
-                    <li><img src="./Assets/yes.png">500 team members</li>
-                </ul>
-            </div>
-        </div>
-        <div class="card">
-            <div class="card-body">
-                <h5 class="card-title py-3">Business</h5>
-                <span>$</span>
-                <span>99  </span>
-                <span>/ month</span>
-                <p class="card-text py-3 text-muted">Basic features for up to 10 users.</p>
-                <a href="#" class="btn my-2">Buy Now</a>
-            </div>
-            <div class="border border-gray my-2"></div>
-            <div class="card-body">
-                <ul class="text-muted">
-                    <li> <img src="./Assets/yes.png"> documentation</li>
-                    <li><img src="./Assets/yes.png">Working materials in Figma</li>
-                    <li><img src="./Assets/yes.png">100GB cloud storage</li>
-                    <li><img src="./Assets/yes.png">500 team members</li>
-                </ul>
-            </div>
-        </div>
-        <div class="card">
-            <div class="card-body">
-                <h5 class="card-title py-3">Professional</h5>
-                <span>$</span>
-                <span>299  </span>
-                <span>/ month</span>
-                <p class="card-text py-3 text-muted">Basic features for up to 10 users.</p>
-                <a href="#" class="btn my-2">Signup Now</a>
-            </div>
-            <div class="border border-gray my-2"></div>
-            <div class="card-body">
-                <ul class="text-muted">
-                    <li> <img src="./Assets/yes.png"> documentation</li>
-                    <li><img src="./Assets/yes.png">Working materials in Figma</li>
-                    <li><img src="./Assets/yes.png">100GB cloud storage</li>
-                    <li><img src="./Assets/yes.png">500 team members</li>
-                </ul>
-            </div>
-        </div>
+        <!-- Copyright -->
+        </footer>
     </div>
-</div>
+    <!-- js file -->
+    <script src="../Js/index.js"></script>
 
+    <!-- bootstrap js -->
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous">
+    </script>
 
+    <script
+        src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous">
+    </script>
+    <script
+        src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous">
+    </script>
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
+    </script>
 
-
-<!-- js file -->
-<script src="../Js/index.js"></script>
-
-<!-- bootstrap js -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
-    crossorigin="anonymous"></script>
-
-
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js"
-    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-    crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"
-    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-    crossorigin="anonymous"></script>
-
-<!-- Swiper JS --> 
-<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
-<!-- aos js -->
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script>
-    AOS.init();
-</script>
-<!-- typing js -->
-<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-<script>
-    var typed = new Typed(".mov",{
-    strings: [,  "Digital Agency","Startups","Marketing"] ,
-    typeSpeed: 100,
-    backSpeed: 100,
-    loop: true
-
-    })
-</script>
-
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
+    <!-- aos js -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <!-- typing js -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typed = new Typed(".mov", {
+        strings: [, "Digital Agency", "Startups", "Marketing"],
+        typeSpeed: 100,
+        backSpeed: 100,
+        loop: true,
+        });
+    </script>
 </body>
 </html>
