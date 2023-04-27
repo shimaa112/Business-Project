@@ -20,3 +20,40 @@ window.addEventListener("scroll", () => {
   }
 });
 
+var swiper = new Swiper('.rate-swiper', {
+  slidesPerView: 1,
+  spaceBetween: 10,
+loop:true,
+  autoplay: {
+    delay: 3000,
+  },
+  navigation:{
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev'
+  },
+  breakpoints:{
+    // when window width is >= 640px
+    320: {
+      width: 320,
+      slidesPerView: 1,
+      spaceBetween: 20,
+    },
+    // when window width is >= 768px
+    480: {
+      width: 480,
+      slidesPerView: 2,
+      spaceBetween: 30,
+    },
+    640:{
+      width: 640,
+      slidesPerView: 2,
+      spaceBetween: 40,
+    },
+    980:{
+      width: 980,
+      slidesPerView: 3,
+      spaceBetween: 40,
+    }
+  }
+});
+
